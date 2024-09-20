@@ -1,4 +1,4 @@
-name = "Sangay Rinche Tamang"  
+name = "Sangay Rinchen Tamang"  
 age = 20
 height = 1.70
 is_student = True  
