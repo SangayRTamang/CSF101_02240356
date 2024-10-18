@@ -14,7 +14,7 @@ def filter_dzongkha_words (input_file,output_file):
                 dzongkha_words= [word for word in words if only_dzongkha_word(word)]
 
                 if dzongkha_words:
-                    output.write ("".join(dzongkha_words)+"\n")
+                    output.write (" ".join(dzongkha_words)+"\n")
 
 input_file="dzo_dict.txt"
 output_file="only_dzongkha.txt"
